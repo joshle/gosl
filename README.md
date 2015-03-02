@@ -80,7 +80,7 @@ Frequently Used `builtin` Functions
 
 Method | Description | Example
 --------|------------|-----------------------
-`S`     | Convert anything to a `string` | `S(1234) == "123"`
+`S`     | Convert anything to a `string` | `S(1234) == "1234"`
 `I`     | Convert anything to an `int`   | `I("1234") == 1234`
 `BashEval` | Similar to bash backtick substitution. | `lsstr := BashEval("ls -l")`
 `Exec`  | Execute an command with arguments  | `err, code := Exec("rm", "-rf" "tmp")`
